@@ -143,14 +143,16 @@ https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba9
 
 `brew cask install iterm2`
 
+
 ## Unit 3
 
 ### Mongo DB
 
 [Mongo Install Walk-Through](./mongodb-osx.md)
 
+
 ## Unit 4
 
-### Ruby and P
+### Ruby and PostgreSQL
 
 [Ruby PostgreSQL Install Walk-Through](./ruby.md)
