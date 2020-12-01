@@ -13,14 +13,14 @@ brew install rbenv ruby-build
 code ~/.zshrc
 ```
 
-at the very bottom of this file, add the following lines:
+Next, at the very bottom of this file, add the following lines:
 
 ```
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-3. **Close your terminal window and open a new one.**
+3. **Hard close your terminal and reopen.**
 
 ## Installing Ruby
 
@@ -38,20 +38,22 @@ This command will take a while. Grab a coffee!
 rbenv global 2.7.1
 ```
 
+**Hard close your terminal and reopen again.**
+
 we can check this with:
 ```shell
 rbenv versions
 ```
 
-we should see an asterisk next to `2.7.1`
+We should see an asterisk next to `2.7.1`
 
-we can test to see if we're using rbenv by typing the command in terminal:
+We can test to see if we're using rbenv by typing the command in terminal:
 
 ```shell
 which ruby
 ```
 
-whit should return a line that looks something like this:
+The output should return a line that looks something like this:
 
 ```shell
 
