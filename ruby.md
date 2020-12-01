@@ -89,4 +89,4 @@ brew services start postgresql
 createdb `whoami`
 ```
 
-> Those are back ticks! The ``whoami`` in backticks will get replacedwith whatever your username is.
+> Those are back ticks! The ``whoami`` in backticks will get replaced with whatever your username is.
