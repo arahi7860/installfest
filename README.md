@@ -142,3 +142,8 @@ https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba9
 ### iTerm 2
 
 `brew cask install iterm2`
+
+
+### Mongo DB
+
+[Mongo Install](./mongodb-osx.md)
