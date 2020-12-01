@@ -146,4 +146,8 @@ https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba9
 
 ### Mongo DB
 
-[Mongo Install](./mongodb-osx.md)
+[Mongo Install Walk-Through](./mongodb-osx.md)
+
+### Ruby and P
+
+[Ruby PostgreSQL Install Walk-Through](./ruby.md)
