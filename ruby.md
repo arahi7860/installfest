@@ -53,7 +53,7 @@ We can test to see if we're using rbenv by typing the command in terminal:
 which ruby
 ```
 
-The output should return a line that looks something like this:
+The output should return a line in the terminal that looks something like this:
 
 ```shell
 
