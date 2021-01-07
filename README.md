@@ -127,7 +127,7 @@ nvm install 12.16.1
 ### VS Code
 
 ```
-brew install --cask visual-studio-code
+brew install visual-studio-code
 ```
 
 Open VS Code by typing `code` at the terminal.
