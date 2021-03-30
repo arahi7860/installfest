@@ -123,6 +123,13 @@ Ensure that node is installed with the following commands.
 ```
 nvm install 12.16.1
 ```
+### Prettier
+
+[Prettier](https://www.npmjs.com/package/prettier)
+
+```
+npm i -g prettier
+```
 
 ### VS Code
 
