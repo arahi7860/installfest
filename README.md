@@ -13,6 +13,9 @@ This includes:
 - VS Code
 - git
 
+## If using a M1/Apple Silicon chip:
+[Go here](./m1-install.md)
+
 ## Homebrew
 
 [Homebrew](https://brew.sh/) is an extremely popular and easy to use package manager for macOS. This is the tool we will use to install all of the software we need for this course.
