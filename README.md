@@ -121,8 +121,13 @@ Restart terminal. (cmd + Q and re-open)
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 12.16.1
+nvm install 15.12.0
 ```
+Check Node version is at 15.12.0
+```
+node -v
+```
+
 ### Prettier
 
 [Prettier](https://www.npmjs.com/package/prettier)
