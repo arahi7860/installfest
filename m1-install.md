@@ -45,7 +45,7 @@ Let's install `git` and a nifty helper for viewing files in the command line, `t
 ```
 brew install git
 brew install tree
-``
+```
 
 Check to see if `git` was installed by running the command `git --version`.
 
