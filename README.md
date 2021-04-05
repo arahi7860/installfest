@@ -126,6 +126,13 @@ Ensure that node is installed with the following commands.
 ```
 nvm install 15.12.0
 ```
+Now set the default `Node` version to 15.12.0.
+
+```
+nvm alias default 15.13.0
+```
+If needed, restart terminal.
+
 Check Node version is at 15.12.0
 ```
 node -v
