@@ -1,4 +1,4 @@
-# Installfest 2020
+# Installfest 2021
 
 ![](giphy.gif)
 
@@ -13,6 +13,9 @@ This includes:
 - VS Code
 - git
 
+## If using a M1/Apple Silicon chip:
+[Go here](./m1-install.md)
+
 ## Homebrew
 
 [Homebrew](https://brew.sh/) is an extremely popular and easy to use package manager for macOS. This is the tool we will use to install all of the software we need for this course.
@@ -20,7 +23,7 @@ This includes:
 Install homebrew from the command line with the command:
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 This install script will tell you the files it will create and ask for your password. **YOUR PASSWORD WILL NOT DISPLAY**, just keep typing.
@@ -121,7 +124,26 @@ Restart terminal. (cmd + Q and re-open)
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 12.16.1
+nvm install 15.12.0
+```
+Now set the default `Node` version to 15.12.0.
+
+```
+nvm alias default 15.13.0
+```
+If needed, restart terminal.
+
+Check Node version is at 15.12.0
+```
+node -v
+```
+
+### Prettier
+
+[Prettier](https://www.npmjs.com/package/prettier)
+
+```
+npm i -g prettier
 ```
 
 ### VS Code
