@@ -71,12 +71,6 @@ gem install rspec
 gem install rails
 ```
 
-## Yarn
-
-```shell
-npm install --global yarn
-```
-
 # SQL
 
 1. Install `PSQL` using homebrew
