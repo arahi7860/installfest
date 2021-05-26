@@ -27,7 +27,7 @@ eval "$(rbenv init -)"
 1. Now install the current version of Ruby with
 
 ```
-rbenv install 2.7.1
+rbenv install 3.0.0
 ```
 
 This command will take a while. Grab a coffee!
@@ -35,7 +35,7 @@ This command will take a while. Grab a coffee!
 2. We will also need to set this new ruby version as our default version. We can do this with: 
 
 ```shell
-rbenv global 2.7.1
+rbenv global 3.0.0
 ```
 
 **Hard close your terminal and reopen again.**
@@ -45,7 +45,7 @@ we can check this with:
 rbenv versions
 ```
 
-We should see an asterisk next to `2.7.1`
+We should see an asterisk next to `3.0.0`
 
 We can test to see if we're using rbenv by typing the command in terminal:
 
