@@ -69,14 +69,14 @@ Restart terminal. (cmd + Q and re-open)
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 15.12.0
+nvm install 15.13.0
 ```
-Check Node version is at 15.12.0
+Check Node version is at 15.13.0
 ```
 node -v
 ```
 
-Expected output should be `v15.12.0`
+Expected output should be `v15.13.0`
 
 ### Install Prettier
 
