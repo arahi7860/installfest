@@ -15,21 +15,27 @@ brew tap mongodb/brew
 The below command will install the MongoDB Server on your machine:
 
 ```sh
-brew install mongodb-community@4.4
+brew install mongodb-community
+```
+
+For M1 users run the following instead:
+
+```sh
+arch -x86_64 /bin/bash -c "brew install mongodb-community"
 ```
 
 The following command wil run the MongoDB Server in the background on your machine:
 ```sh
-brew services start mongodb-community@4.4
+brew services start mongodb-community
 ```
 
 To make sure that the MongoDB Community Server was installed correctly, run the following in your terminal:
 
 ```sh
-mongo
+brew services list
 ```
 
-If installed correctly, this will load the `mongo` interactive shell! That means your install was successful! Good job! YOu can now exit the [mongo shell](https://docs.mongodb.com/manual/mongo/) by typing `exit`.
+And you should see MongoDB Server running in that list.
 
 ### Troubleshooting
 
