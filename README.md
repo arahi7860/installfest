@@ -138,12 +138,12 @@ Check Node version is at 15.13.0
 node -v
 ```
 
-### Prettier
+### ESLint
 
-[Prettier](https://www.npmjs.com/package/prettier)
+[Eslint](https://www.npmjs.com/package/eslint)
 
 ```
-npm i -g prettier
+npm i eslint
 ```
 
 ### VS Code
@@ -160,6 +160,10 @@ Copy and paste the options from the following gist and save:
 
 https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
 
+Afterwards, run ~/.zshrc and add this line
+export EDITOR="$(which code)"
+
+Type `Command + S` to save.
 
 ### iTerm 2
 
@@ -171,10 +175,3 @@ https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba9
 ### Mongo DB
 
 [Mongo Install Walk-Through](./mongodb-osx.md)
-
-
-## Unit 4
-
-### Ruby and PostgreSQL
-
-[Ruby PostgreSQL Install Walk-Through](./ruby.md)
