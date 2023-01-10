@@ -140,6 +140,8 @@ node -v
 
 ### ESLint
 
+<img width="1439" alt="img" src="https://media.git.generalassemb.ly/user/47240/files/8acaee50-0bc8-4c32-b480-f78d4a21f61d">
+
 [Eslint](https://www.npmjs.com/package/eslint)
 
 ```
@@ -160,8 +162,8 @@ Copy and paste the options from the following gist and save:
 
 https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
 
-Afterwards, run ~/.zshrc and add this line
-export EDITOR="$(which code)"
+Afterwards, run `~/.zshrc` and add this line
+`export EDITOR="$(which code)"`
 
 Type `Command + S` to save.
 
