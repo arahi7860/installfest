@@ -96,7 +96,9 @@ Next type `chmod go-w '/usr/local/share'` to activate the completions.
 
 Close and reopen your terminal app again to use your new default shell.
 Test to see if it worked with 
-```echo $SHELL```
+```
+echo $SHELL
+```
 Expected result: `/bin/zsh` or similar.
 
 ### Git
@@ -124,28 +126,18 @@ Restart terminal. (cmd + Q and re-open)
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 15.13.0
+nvm install 18.13.0
 ```
-Now set the default `Node` version to 15.13.0.
+Now set the default `Node` version to 18.13.0.
 
 ```
-nvm alias default 15.13.0
+nvm alias default 18.13.0
 ```
 If needed, restart terminal.
 
-Check Node version is at 15.13.0
+Check Node version is at 18.13.0
 ```
 node -v
-```
-
-### ESLint
-
-<img width="1439" alt="img" src="https://media.git.generalassemb.ly/user/47240/files/8acaee50-0bc8-4c32-b480-f78d4a21f61d">
-
-[Eslint](https://www.npmjs.com/package/eslint)
-
-```
-npm i eslint
 ```
 
 ### VS Code
@@ -162,15 +154,22 @@ Copy and paste the options from the following gist and save:
 
 https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
 
-Afterwards, run `~/.zshrc` and add this line
-`export EDITOR="$(which code)"`
+Press `Command + S` to save.
 
-Type `Command + S` to save.
+Afterwards in the same terminal we ran `code` in run `code ~/.zshrc`, which will open the Z Shell config file in vscode. Scroll to the bottom and add this lin:
+```
+export EDITOR="$(which code)"
+```
+> This will set vscode as the default editor that programs like git will use for editing files.
 
-### iTerm 2
 
-`brew install --cask iterm2`
+Press `Command + S` to save.
 
+Next, go to the Extensions tab and search for `ESLint`.
+
+![](./eslint-installation.png)
+
+> Eslint is a "Linter" which is basically a spell check for code. ESLint is specifically for javascript (& typescript)
 
 ## Unit 3
 
